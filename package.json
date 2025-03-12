@@ -5,7 +5,7 @@
     "site"
   ],
   "scripts": {
-    "postinstall": "git submodule update --init --recursive"
+    "preinstall": "git submodule update --init --recursive"
   },
   "devDependencies": {
     "eslint-plugin-import": "^2.29.1"
